@@ -27,7 +27,7 @@ namespace WindowsFormsApp47
             komut.CommandText = "DELETE FROM liste WHERE numara=@n";
             komut.Parameters.AddWithValue("@n", Convert.ToInt32(textBox1.Text));
             komut.ExecuteNonQuery();
-            MessageBox.Show("Kayıt Silindi..");
+            MessageBox.Show("Kayıt Silindi..(Yeni Versiyon)");
             baglanti.Close();
         }
     }
